@@ -35,13 +35,13 @@
 
 .taglines {
   font-weight: 500;
-  font-size: 12rem;
+  font-size: 8rem;
   line-height: 1.2;
 }
 
 #headline {
   position: absolute;
-  top: 40%;
+  top: 50%;
 }
 
 .col-lg-1 {
