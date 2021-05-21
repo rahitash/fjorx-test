@@ -100,18 +100,18 @@
 }
 
 .course_title {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
   padding-top: 1%;
 }
 
 .course_description {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 400;
   padding-bottom: 2%;
 }
 
 .course_time_count,.course_lesson_count {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
 }
