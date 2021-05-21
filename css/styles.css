@@ -84,7 +84,7 @@
 }
 
 .footer_not_fixed {
-  position: absolute;
+  position: static;
   width: 90%;
   padding-bottom: 2%;
   bottom: 0%;
