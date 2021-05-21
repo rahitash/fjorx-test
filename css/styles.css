@@ -77,10 +77,10 @@
   padding-top: 5%;
 }
 
-.course_card {
-  background-color: #fff;
-  color: #000;
+#courses_deck .course_card {
   margin: 4% 2%;
+  color: #f1f1f1;
+  border: 1.5px solid grey;
 }
 
 .footer_not_fixed {
@@ -92,26 +92,28 @@
 }
 
 #courses_deck .card-header  {
-  background-color: #fff;
+
+
 }
 
 #courses_deck .card-body {
   padding: 5%;
 }
 
+
 .course_title {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  padding-top: 1%;
+  padding: 2% 0;
 }
 
 .course_description {
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 300;
   padding-bottom: 2%;
 }
 
 .course_time_count,.course_lesson_count {
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
