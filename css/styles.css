@@ -1,5 +1,7 @@
+/* Homepage */
 
-#override_bootstrap {
+#override_bootstrap_homepage {
+  font-family: "Questrial";
   margin: 0;
 }
 
@@ -48,7 +50,7 @@
   text-align: right;
 }
 
-.footer {
+.footer_fixed {
   position: fixed;
   width: 92%;
   padding-bottom: 2%;
@@ -58,4 +60,59 @@
 
 #start_button {
   padding-top: 3%;
+}
+
+/* Academy */
+
+#override_bootstrap_academy {
+  margin: 0;
+  background-color: #000;
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  padding: 2% 5%;
+}
+
+#courses_deck {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.course_card {
+  background-color: #fff;
+  color: #000;
+  margin: 4% 2%;
+}
+
+.footer_not_fixed {
+  position: absolute;
+  width: 90%;
+  padding-bottom: 2%;
+  bottom: 0%;
+  font-size: 1.2rem;
+}
+
+#courses_deck .card-header  {
+  background-color: #fff;
+}
+
+#courses_deck .card-body {
+  padding: 5%;
+}
+
+.course_title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-top: 1%;
+}
+
+.course_description {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-bottom: 2%;
+}
+
+.course_time_count,.course_lesson_count {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
